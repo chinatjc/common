@@ -1,0 +1,23 @@
+{
+  "name": "@coinstore/utils.animation-frames",
+  "version": "1.0.0",
+  "license": "MIT",
+  "types": "dist/core/src/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development rollup -c",
+    "dev-watch": "cross-env NODE_ENV=development rollup -c -w",
+    "build": "cross-env NODE_ENV=production rollup -c"
+  },
+  "engines": {
+    "node": ">=17.0.0"
+  }
+}

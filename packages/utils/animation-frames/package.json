@@ -1,6 +1,6 @@
 {
   "name": "@coinstore/utils.animation-frames",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.0",
   "license": "MIT",
   "types": "dist/core/src/index.d.ts",
   "main": "dist/index.js",
